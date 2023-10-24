@@ -1,0 +1,7 @@
+body{
+    background-image: url("../images/background-main.jpg");
+}
+@font-face {
+    font-family: "Abril Fatface";
+    src: url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+  }
