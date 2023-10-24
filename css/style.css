@@ -1,7 +1,23 @@
+@font-face {
+    font-family: "Abril Fatface, Metal Mania";
+    src: url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Metal+Mania&display=swap");
+}
 body{
     background-image: url("../images/background-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-@font-face {
-    font-family: "Abril Fatface";
-    src: url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-  }
+header{
+    background-image: url("../images/background-yellow-red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ring{
+    background-image: ;
+}
+.resume{
+    background-color: rgb(234, 234, 234, 0.6);
+}
+footer{
+    background-color: rgb(234, 234, 234, 0.6);
+}
