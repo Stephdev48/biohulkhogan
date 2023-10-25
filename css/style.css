@@ -3,9 +3,7 @@ body{
     background-image: url("../images/background-main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .header{
     display: flex;
@@ -15,38 +13,33 @@ body{
     background-size: cover;
     flex-direction: column;
     font-family: "Abril Fatface";
+    align-items: center;
 }
-.header__maintitle{
+.header__background{      /*photo du ring dans le header*/
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    background-image: url("../images/background-wwe-ring.webp");
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    align-items: center;
+}
+.header__maintitle{    /*Titre h1 : Hulk Hogan écrit avec la police Metal Mania*/
+    display: flex;
     font-family: "Metal Mania";
     text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; /* bordure blanche pour la police*/
     font-size: 120px;
     font-weight: normal;
 }
-.header__background{
-    display: flex;
-    flex-direction: column;
-    height: calc(100vh-25px);
-    background-image: url("../images/background-wwe-ring.webp");
+.header__background__picture{    /*Hulkhogan mugshot*/
+    width: 450px;
+    height: 750px;
+    background-image: url("../images/hh-header.jpg");
     background-size: cover;
-    text-align: justify;
-    margin: 30px;
+    background-repeat: no-repeat;
     border-radius: 25px;
 }
-.color__red{
-    color: red;
-}
-.color__yellow{
-    color: yellow;
-}
-.resume{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
-    font-family: "Abril Fatface";
-}
-.header__title{
+.header__title{    /*Tite h2 : 13 fois champion du monde*/
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -54,17 +47,44 @@ body{
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; /* bordure noire pour la police*/
 }
+.color__yellow{      /*couleur du nom Hulk dans le h1 du header*/
+    color: yellow;
+}
+.color__red{     /*couleur du nom Hogan dans le h1 du header*/
+    color: red;
+}
 section{
     display: flex;
     flex-direction: column;
     font-family: "Abril Fatface";
+    padding: 40px;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
+    font-family: "Abril Fatface";
+    border-radius: 25px;
+    padding: 20px;
+}
+ul {    /*traitement de la liste de dates clés*/
+    font-family: "Inter";
+    font-size: 12px;
 }
 footer{
     display: flex;
     height: 100px;
     background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
 }
-.footer__background{
+.footer__background{     /*image Hulk's rules*/
     background-image: url("../images/hulk's-rules.jpg");
     border-radius: 25px;
+}
+img {     /*traitement des images dans leur <div>*/
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    max-width : 100%;
+    height : auto;
 }
