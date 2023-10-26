@@ -14,12 +14,15 @@ body{
     flex-direction: column;
     font-family: "Abril Fatface";
     align-items: center;
+    padding: 20px;
 }
-.header__background{      /*photo du ring dans le header*/
+.header__background{      /*photo d'arrière-plan du ring dans le header*/
     display: flex;
     flex-direction: column;
+    min-width: 90%;
+    height: 90%;
     background-image: url("../images/background-wwe-ring.webp");
-    background-size: 1200px auto;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
     align-items: center;
@@ -31,19 +34,21 @@ body{
     font-size: 120px;
     font-weight: normal;
 }
-.header__background__picture{    /*Hulkhogan mugshot*/
-    width: 450px;
-    height: 750px;
+.header__background__picture{    /*Hulk Hogan mugshot*/
+    max-width: 100%;
+    height: auto;
     background-image: url("../images/hh-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
+    padding: 10%;
 }
-.header__title{    /*Tite h2 : 13 fois champion du monde*/
+.header__title{    /*Titre h2 : 13 fois champion du monde*/
     display: flex;
     flex-direction: column;
     text-align: center;
     font-family: "Abril Fatface";
+    font-size: 35px;
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; /* bordure noire pour la police*/
 }
@@ -57,7 +62,7 @@ section{
     display: flex;
     flex-direction: column;
     font-family: "Abril Fatface";
-    padding: 40px;
+    padding: 30px;
 }
 .resume{
     display: flex;
@@ -68,23 +73,73 @@ section{
     border-radius: 25px;
     padding: 20px;
 }
-ul {    /*traitement de la liste de dates clés*/
+ul{    /*traitement de la liste des dates clés*/
     font-family: "Inter";
     font-size: 12px;
 }
 footer{
     display: flex;
-    height: 100px;
+    height: auto;
     background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
+    margin: 3%;
+    border-radius: 25px;
+    padding: 5%;
 }
 .footer__background{     /*image Hulk's rules*/
     background-image: url("../images/hulk's-rules.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 90%;
+    height: 100%;
     border-radius: 25px;
+    margin: 3%;
+}
+.hypertext{
+    background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
+    display: flex;
+    float: right;
+    border-radius: 25px;
+    margin: 10%;
+    padding: 1%
+}
+a{
+    color: white;
+    font-family: "Metal Mania";
+    font-size: x-large;
 }
 img {     /*traitement des images dans leur <div>*/
     display: flex;
     align-items: center;
+    margin: 3%;
     border-radius: 25px;
-    max-width : 100%;
+    max-width : 90%;
     height : auto;
+}
+.manager{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.athlete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rocky{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.andre{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.hulkmania{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
