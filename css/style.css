@@ -26,6 +26,7 @@ body{
     background-repeat: no-repeat;
     border-radius: 25px;
     align-items: center;
+    padding: 2%;
 }
 .header__maintitle{    /*Titre h1 : Hulk Hogan écrit avec la police Metal Mania*/
     display: flex;
@@ -36,7 +37,7 @@ body{
 }
 .header__background__picture{    /*Hulk Hogan mugshot*/
     max-width: 100%;
-    height: auto;
+    height: 90%;
     background-image: url("../images/hh-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,6 +63,7 @@ section{
     display: flex;
     flex-direction: column;
     font-family: "Abril Fatface";
+    font-size: x-large;
     padding: 30px;
 }
 .resume{
@@ -79,25 +81,15 @@ ul{    /*traitement de la liste des dates clés*/
 }
 footer{
     display: flex;
-    height: auto;
     background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
     margin: 3%;
     border-radius: 25px;
     padding: 5%;
 }
-.footer__background{     /*image Hulk's rules*/
-    background-image: url("../images/hulk's-rules.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-width: 90%;
-    height: 100%;
-    border-radius: 25px;
-    margin: 3%;
-}
 .hypertext{
     background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
     display: flex;
-    float: right;
+    width: fit-content;
     border-radius: 25px;
     margin: 10%;
     padding: 1%
@@ -110,31 +102,35 @@ a{
 img {     /*traitement des images dans leur <div>*/
     display: flex;
     align-items: center;
-    margin: 3%;
     border-radius: 25px;
-    max-width : 90%;
     height : auto;
 }
 .manager{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    margin-bottom: 35px;
+    margin-top: 20px;
 }
 .athlete{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 35px;
+    padding: 20px;
 }
 .rocky{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-bottom: 35px;
 }
 .andre{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    margin-bottom: 35px;
 }
 .hulkmania{
     display: flex;
@@ -142,4 +138,8 @@ img {     /*traitement des images dans leur <div>*/
     text-align: center;
     align-items: center;
     justify-content: space-around;
+    padding: 1%;
+}
+.hulkmania__tearingshirt{
+    margin-bottom: 20px;
 }
