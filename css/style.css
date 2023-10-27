@@ -174,7 +174,6 @@ img{     /*traitement des images dans leur <div>*/
     }
     .header__background__picture{    /*Hulk Hogan mugshot*/
         width: 290px;
-        height: 380px;
     }
     .manager p{
         font-size: x-large;
@@ -204,6 +203,32 @@ img{     /*traitement des images dans leur <div>*/
         font-size: 1.5em;
     }
 }
-@media screen and (min-width: 835px) and (max-width: 1440px){
-    
+@media screen and (min-width: 835px){
+    .header__maintitle{    /*Titre h1 : "Hulk Hogan" écrit avec la police Metal Mania*/
+        font-size: 6em;
+    } 
+    .header__title{    /*Titre h2 : "13 fois champion du monde"*/
+        font-size: 2.4em;
+    }
+    .manager p{
+        font-size: xx-large;
+    }
+    .athlete img{
+        width: 400px;
+    }
+    .athlete p{
+        font-size: xx-large;
+    }
+    .rocky p{
+        font-size: x-large;
+    }
+    .andre p{
+        font-size: x-large;
+    }
+    .footer a{
+        font-size: 2em;
+    }
+    .hulkmania p{
+        font-size: xx-large;
+    }   
 }
