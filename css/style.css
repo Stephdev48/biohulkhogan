@@ -12,6 +12,7 @@ body{
     height: 100%;
     background-image: url("../images/background-yellow-red.jpg");
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     font-family: "Abril Fatface";
     align-items: center;
@@ -37,7 +38,7 @@ body{
 .header__maintitle{    /*Titre h1 : "Hulk Hogan" écrit avec la police Metal Mania*/
     font-family: "Metal Mania";
     text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; /* bordure blanche pour la police*/
-    font-size: 3.7em;
+    font-size: 3.2em;
     font-weight: normal;
 }
 .header__background__picture{    /*Hulk Hogan mugshot*/
@@ -49,6 +50,7 @@ body{
     background-position: center center;
     border-radius: 25px;
     padding: 15%;
+    margin: 20px;
     border: medium solid rgb(100, 27, 4);
 }
 .header__title{    /*Titre h2 : "13 fois champion du monde"*/
@@ -107,7 +109,7 @@ footer{
     margin: 10%;
     padding: 2%
 }
-a{
+.footer a{
     color: white;
     font-family: "Metal Mania";
     font-size: x-large;
@@ -163,23 +165,28 @@ img{     /*traitement des images dans leur <div>*/
 .hulkmania__tearingshirt{
     margin-bottom: 20px;
 }
-@media screen and (max-width: 834px){
+@media screen and (min-width: 431px) and (max-width:834px){
     .header__maintitle{    /*Titre h1 : "Hulk Hogan" écrit avec la police Metal Mania*/
-        font-size: 6em;
+        font-size: 4.6em;
     } 
     .header__title{    /*Titre h2 : "13 fois champion du monde"*/
-        font-size: 2.2em;
+        font-size: 2.5em;
     }
     .header__background__picture{    /*Hulk Hogan mugshot*/
         width: 290px;
         height: 380px;
-        background-image: url("../images/hh-header.jpg");
     }
     .manager p{
         font-size: x-large;
     }
+    .manager img{
+        width: 300px;
+    }
     .athlete img{
-        width: 500px;
+        width: 300px;
+    }
+    .athlete p{
+        font-size: x-large;
     }
     .rocky p{
         font-size: x-large;
@@ -192,8 +199,11 @@ img{     /*traitement des images dans leur <div>*/
     }
     .hulkmania p{
         font-size: xx-large;
-    }    
+    }   
+    .footer a{
+        font-size: 1.5em;
+    }
 }
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 835px) and (max-width: 1440px){
     
 }
