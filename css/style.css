@@ -34,7 +34,7 @@ body{
     padding: 1%;
     border: medium solid rgb(100, 27, 4);
 }
-.header__maintitle{    /*Titre h1 : Hulk Hogan écrit avec la police Metal Mania*/
+.header__maintitle{    /*Titre h1 : "Hulk Hogan" écrit avec la police Metal Mania*/
     font-family: "Metal Mania";
     text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; /* bordure blanche pour la police*/
     font-size: 3.7em;
@@ -51,7 +51,7 @@ body{
     padding: 15%;
     border: medium solid rgb(100, 27, 4);
 }
-.header__title{    /*Titre h2 : 13 fois champion du monde*/
+.header__title{    /*Titre h2 : "13 fois champion du monde"*/
     text-align: center;
     font-family: "Abril Fatface";
     font-size: 1.6em;
@@ -164,10 +164,10 @@ img{     /*traitement des images dans leur <div>*/
     margin-bottom: 20px;
 }
 @media screen and (max-width: 834px){
-    .header__maintitle{    /*Titre h1 : Hulk Hogan écrit avec la police Metal Mania*/
+    .header__maintitle{    /*Titre h1 : "Hulk Hogan" écrit avec la police Metal Mania*/
         font-size: 6em;
     } 
-    .header__title{    /*Titre h2 : 13 fois champion du monde*/
+    .header__title{    /*Titre h2 : "13 fois champion du monde"*/
         font-size: 2.2em;
     }
     .header__background__picture{    /*Hulk Hogan mugshot*/
@@ -178,21 +178,21 @@ img{     /*traitement des images dans leur <div>*/
     .manager p{
         font-size: x-large;
     }
+    .athlete img{
+        width: 500px;
+    }
     .rocky p{
         font-size: x-large;
     }
     .andre p{
         font-size: x-large;
     }
-    .hulkmania p{
-        font-size: xx-large;
-    }
-    .athlete img{
-        width: 500px;
-    }
     .andre img{
         width: 1000px;
     }
+    .hulkmania p{
+        font-size: xx-large;
+    }    
 }
 @media screen and (max-width: 1440px){
     
