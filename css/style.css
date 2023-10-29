@@ -82,12 +82,10 @@ section{
     border-radius: 25px;
     padding: 20px;
 }
-.section__pictures{
-    font-size: large;
-    line-height: 35px;
-}
 .section__pictures p{
     margin: 5px;
+    font-size: large;
+    line-height: 29px;
 }
 ul{    /*traitement de la liste des dates clés*/
     font-family: "Inter";
@@ -114,8 +112,10 @@ footer{
     font-family: "Metal Mania";
     font-size: x-large;
 }
+.footer__hypertext:hover{
+    font-size: 1.1em;
+}
 img{     /*traitement des images dans leur <div>*/
-    align-items: center;
     border-radius: 25px;
     height : auto;
     border: medium solid rgb(100, 27, 4);
@@ -217,19 +217,22 @@ img{     /*traitement des images dans leur <div>*/
         font-size: xx-large;
     }
     .athlete img{
-        width: 400px;
+        width: 500px;
     }
     .athlete p{
         font-size: xx-large;
     }
     .rocky p{
-        font-size: x-large;
+        font-size: 1.7em;
     }
     .andre p{
-        font-size: x-large;
+        font-size: xx-large;
+    }
+    .andre img{
+        width: 1000px;
     }
     .footer a{
-        font-size: 2em;
+        font-size: 3em;
     }
     .hulkmania p{
         font-size: xx-large;
