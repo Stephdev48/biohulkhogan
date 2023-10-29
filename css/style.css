@@ -1,9 +1,9 @@
 body{
     display: flex;
+    flex-direction: column;
     background-image: url("../images/background-main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: column;
     padding: 5px;
 }
 .header{
@@ -77,7 +77,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
+    background-color: rgb(234, 234, 234, 0.55); /*fond gris transparent*/
     font-family: "Abril Fatface";
     border-radius: 25px;
     padding: 20px;
@@ -97,7 +97,7 @@ ul{    /*traitement de la liste des dates clés*/
 footer{
     display: flex;
     align-items: center;
-    background-color: rgb(234, 234, 234, 0.6); /*fond gris transparent*/
+    background-color: rgb(234, 234, 234, 0.55); /*fond gris transparent*/
     margin: 3%;
     border-radius: 25px;
     padding: 5%;
@@ -167,10 +167,10 @@ img{     /*traitement des images dans leur <div>*/
 }
 @media screen and (min-width: 431px) and (max-width:834px){
     .header__maintitle{    /*Titre h1 : "Hulk Hogan" écrit avec la police Metal Mania*/
-        font-size: 4.6em;
+        font-size: 4.4em;
     } 
     .header__title{    /*Titre h2 : "13 fois champion du monde"*/
-        font-size: 2.5em;
+        font-size: 1.9em;
     }
     .header__background__picture{    /*Hulk Hogan mugshot*/
         width: 290px;
@@ -208,7 +208,10 @@ img{     /*traitement des images dans leur <div>*/
         font-size: 6em;
     } 
     .header__title{    /*Titre h2 : "13 fois champion du monde"*/
-        font-size: 2.4em;
+        font-size: 2.2em;
+    }
+    .header__background__picture{    /*Hulk Hogan mugshot*/
+        width: 300px;
     }
     .manager p{
         font-size: xx-large;
