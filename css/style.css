@@ -163,6 +163,7 @@ img{     /*traitement des images dans leur <div>*/
     flex-direction: row-reverse;
     justify-content: space-around;
     margin-bottom: 35px;
+    margin-top: 30px;
 }
 .andre p{
     font-size: smaller;
