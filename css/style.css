@@ -117,6 +117,7 @@ footer{
     color: white;
     font-family: "Metal Mania";
     font-size: x-large;
+    cursor: pointer;
 }
 .footer__hypertext:hover{
     font-size: 1.1em;
