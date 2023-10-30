@@ -5,3 +5,4 @@ J'ai placé sa photo principale au centre du header, car c'est une star et un pe
 Le header a des dominantes jaune et rouge qui collent aux couleurs adoptées par Hulk Hogan dans les années 80. C'est son manager qui lui a suggéré de porter ces couleurs parce qu'à l'époque les fast-food Mc Donald étaient en plein essor.
 La photo du footer représente Hulk Hogan dans les anées 2010. J'ai organisé les photos de la page de façon chronologique. D'abord ce qu'il a été, puis en dernier ce qu'il est aujourd'hui. La page raconte en quelque sorte une histoire.
 J'ai modifié la disposition des deux photos du block "hulkmania" pour qu'elles gardent une bonne taille.
+J'ai aussi kaissé le lien au-dessus de la photo du footer pour plus de lisibilité.
