@@ -119,9 +119,6 @@ footer{
     font-size: x-large;
     cursor: pointer;
 }
-.footer__hypertext:hover{
-    font-size: 1.1em;
-}
 img{     /*traitement des images dans leur <div>*/
     border-radius: 25px;
     height : auto;
