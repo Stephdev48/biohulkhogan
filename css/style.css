@@ -6,6 +6,11 @@ body{
     background-size: cover;
     padding: 5px;
 }
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
 .header{
     display: flex;
     flex-direction: column;
@@ -42,7 +47,7 @@ body{
     font-weight: normal;
 }
 .header__background__picture{    /*Hulk Hogan mugshot*/
-    width: 200px;
+    width: 230px;
     height: 350px;
     background-image: url("../images/hh-header.jpg");
     background-size: cover;
@@ -130,6 +135,7 @@ img{     /*traitement des images dans leur <div>*/
 }
 .manager p{
     font-size: smaller;
+    padding: 40px;
 }
 .athlete{
     display: flex;
@@ -137,6 +143,9 @@ img{     /*traitement des images dans leur <div>*/
     justify-content: space-around;
     margin-bottom: 35px;
     padding: 20px;
+}
+.athlete p{
+    padding: 40px;
 }
 .rocky{
     display: flex;
@@ -153,6 +162,7 @@ img{     /*traitement des images dans leur <div>*/
 }
 .andre p{
     font-size: smaller;
+    padding: 40px;
 }
 .hulkmania{
     display: flex;
