@@ -131,11 +131,13 @@ img{     /*traitement des images dans leur <div>*/
     justify-content: space-around;
     margin-bottom: 35px;
     margin-top: 20px;
-    margin: 20px;
 }
 .manager p{
     font-size: smaller;
     padding: 40px;
+}
+.manager img{
+    margin: 15px;
 }
 .athlete{
     display: flex;
@@ -171,9 +173,20 @@ img{     /*traitement des images dans leur <div>*/
     align-items: center;
     justify-content: space-around;
     padding: 1%;
+    margin: 20px;
 }
 .hulkmania__tearingshirt{
     margin-bottom: 20px;
+    position: relative;
+    right: 50px;
+    max-width: 300px;
+    z-index: 1;
+}
+.hulkmania__muscles{
+    position: relative;
+    max-width: 300px;
+    bottom: 50px;
+    left: 60px;
 }
 @media screen and (min-width: 431px) and (max-width:834px){
     .header__maintitle{    /*Titre h1 : "Hulk Hogan" écrit avec la police Metal Mania*/
@@ -207,8 +220,18 @@ img{     /*traitement des images dans leur <div>*/
         width: 1000px;
     }
     .hulkmania p{
-        font-size: xx-large;
-    }   
+        font-size: x-large;
+    }
+    .hulkmania__tearingshirt{
+        margin-bottom: 20px;
+        right: 50px;
+        max-width: 450px;
+    }
+    .hulkmania__muscles{
+        max-width: 450px;
+        bottom: 50px;
+        left: 40px;
+    } 
     .footer a{
         font-size: 1.5em;
     }
@@ -241,10 +264,20 @@ img{     /*traitement des images dans leur <div>*/
     .andre img{
         width: 1000px;
     }
+    .hulkmania p{
+        font-size: xx-large;
+    }
+    .hulkmania__tearingshirt{
+        margin-bottom: 20px;
+        right: 50px;
+        max-width: 700px;
+    }
+    .hulkmania__muscles{
+        max-width: 700px;
+        bottom: 80px;
+        left: 60px;
+    }  
     .footer a{
         font-size: 3em;
     }
-    .hulkmania p{
-        font-size: xx-large;
-    }   
 }
